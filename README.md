@@ -17,7 +17,7 @@ This project is a SQL-based database system that simulates a simple movie recomm
 
 
 ## Files requierd
-Movies_project.sql
+* Movies_project.sql
 ---
 
 ## Database Schema
