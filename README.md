@@ -17,3 +17,15 @@ Movie_project.sql
 *	Movies (movie_id, title, genre)
 *	Ratings (user_id, movie_id, rating)
 *	Watch_History (user_id, movie_id, watch_date)
+
+--- 
+## Key tasks
+*	Find top-rated movies
+*	Identify most popular genres
+*	Recommend movies based on similar users
+*	Analyze user behaviour patterns
+*	Detect trending movies
+
+---
+## Author
+Vamshi krishna
