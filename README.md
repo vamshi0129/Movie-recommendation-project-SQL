@@ -14,17 +14,10 @@ This project is a SQL-based database system that simulates a simple movie recomm
 * Identify trends and popular content.
 
 ---
----
 
-## Files required
-movies_project.sql
 
-* SQL Joins (INNER JOIN, LEFT JOIN)
-* Aggregation Functions (AVG, COUNT)
-* Subqueries
-* Date Functions
-* Grouping and Sorting
-
+## Files requierd
+Movies_project.sql
 ---
 
 ## Database Schema
@@ -43,14 +36,14 @@ movies_project.sql
 
 ### Ratings
 
-* `user_id` 
-* `movie_id` 
+* `user_id` (Foreign Key)
+* `movie_id` (Foreign Key)
 * `rating`
 
 ### Watch_History
 
-* `user_id` 
-* `movie_id`
+* `user_id` (Foreign Key)
+* `movie_id` (Foreign Key)
 * `watch_date`
 
 ---
