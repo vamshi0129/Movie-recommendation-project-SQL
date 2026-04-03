@@ -2,16 +2,28 @@
 
 ## Project Overview
 
-This project is a SQL-based database system designed to simulate a basic movie recommendation engine similar to those used by streaming platforms. It manages user data, movie information, ratings, and watch history, and performs analytical queries to generate insights and recommendations.
+This project is a SQL-based database system that simulates a simple movie recommendation engine, like those used by streaming services. It handles user data, movie information, ratings, and watch history while running queries to generate insights and recommendations.
 
 ---
 
 ## Objectives
 
-* Store and manage user, movie, and rating data
-* Analyze user behavior and movie performance
-* Generate basic movie recommendations
-* Identify trends and popular content
+* Store and manage user, movie, and rating data.
+* Analyze user behavior and movie performance.
+* Generate basic movie recommendations.
+* Identify trends and popular content.
+
+---
+---
+
+## Files required
+movies_project.sql
+
+* SQL Joins (INNER JOIN, LEFT JOIN)
+* Aggregation Functions (AVG, COUNT)
+* Subqueries
+* Date Functions
+* Grouping and Sorting
 
 ---
 
@@ -31,14 +43,14 @@ This project is a SQL-based database system designed to simulate a basic movie r
 
 ### Ratings
 
-* `user_id` (Foreign Key)
-* `movie_id` (Foreign Key)
+* `user_id` 
+* `movie_id` 
 * `rating`
 
 ### Watch_History
 
-* `user_id` (Foreign Key)
-* `movie_id` (Foreign Key)
+* `user_id` 
+* `movie_id`
 * `watch_date`
 
 ---
@@ -47,28 +59,29 @@ This project is a SQL-based database system designed to simulate a basic movie r
 
 ### Top Rated Movies
 
-Identifies movies with the highest average ratings based on user feedback.
+This feature identifies movies with the highest average ratings based on user feedback.
 
 ### Popular Genres
 
-Determines which genres are most frequently watched by users.
+This feature finds the genres that users watch most often.
 
 ### Movie Recommendations
 
-Suggests movies to users based on similarities in viewing behavior with other users.
+This feature suggests movies to users based on similar viewing habits with other users.
 
 ### User Behavior Analysis
 
-Analyzes how actively users engage with the platform by counting watched movies.
+This feature looks at how actively users engage with the platform by counting the number of watched movies.
 
 ### Trending Movies
 
-Finds movies that have been watched most frequently in the recent period (last 30 days).
+This feature discovers which movies have been watched the most in the last 30 days.
 
 ---
 
 ## Key Concepts Used
-* SQL Joins
+
+* SQL Joins (INNER JOIN, LEFT JOIN)
 * Aggregation Functions (AVG, COUNT)
 * Subqueries
 * Date Functions
@@ -78,17 +91,15 @@ Finds movies that have been watched most frequently in the recent period (last 3
 
 ## How to Run
 
-1. Open MySQL Workbench or any SQL client
-2. Open or import the file:
-   movie_project.sql
-3. Execute the script
-4. Run the queries to view results
+1. Open MySQL Workbench or any SQL client.
+2. Open or import the file: movie_project.sql.
+3. Execute the script.
+4. Run the queries to view the results.
 
 ---
 
-
 ## Author
 
-Vamshi krishna
+Vamshi Krishna
 
 ---
